@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		900B0BA42574E98F006E3BFD /* VoiceConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 900B0BA32574E98F006E3BFD /* VoiceConvert.m */; };
-		900B0BA52574E98F006E3BFD /* VoiceConvert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 900B0BA22574E98F006E3BFD /* VoiceConvert.h */; };
-		900B0BAF2574E9F5006E3BFD /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 900B0BAB2574E9F4006E3BFD /* wav.mm */; };
-		900B0BB02574E9F5006E3BFD /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 900B0BAD2574E9F5006E3BFD /* amrFileCodec.mm */; };
 		900B0BB82574EA18006E3BFD /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900B0BB62574EA18006E3BFD /* libopencore-amrnb.a */; };
 		900B0BB92574EA18006E3BFD /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 900B0BB72574EA18006E3BFD /* libopencore-amrwb.a */; };
+		90FB1A072574EE33003B5604 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90FB1A042574EE33003B5604 /* wav.mm */; };
+		90FB1A082574EE33003B5604 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90FB1A062574EE33003B5604 /* amrFileCodec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,7 +20,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				900B0BA52574E98F006E3BFD /* VoiceConvert.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,18 +27,16 @@
 
 /* Begin PBXFileReference section */
 		900B0B9F2574E98F006E3BFD /* libVoiceConvert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVoiceConvert.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		900B0BA22574E98F006E3BFD /* VoiceConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceConvert.h; sourceTree = "<group>"; };
-		900B0BA32574E98F006E3BFD /* VoiceConvert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceConvert.m; sourceTree = "<group>"; };
-		900B0BAB2574E9F4006E3BFD /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
-		900B0BAC2574E9F4006E3BFD /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
-		900B0BAD2574E9F5006E3BFD /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
-		900B0BAE2574E9F5006E3BFD /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
 		900B0BB62574EA18006E3BFD /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
 		900B0BB72574EA18006E3BFD /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
 		900B0BBB2574EA65006E3BFD /* interf_dec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
 		900B0BBC2574EA65006E3BFD /* if_rom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
 		900B0BBD2574EA65006E3BFD /* dec_if.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
 		900B0BBE2574EA65006E3BFD /* interf_enc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		90FB1A032574EE33003B5604 /* wav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		90FB1A042574EE33003B5604 /* wav.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = wav.mm; sourceTree = "<group>"; };
+		90FB1A052574EE33003B5604 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		90FB1A062574EE33003B5604 /* amrFileCodec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = amrFileCodec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +74,6 @@
 				900B0BBA2574EA65006E3BFD /* include */,
 				900B0BB62574EA18006E3BFD /* libopencore-amrnb.a */,
 				900B0BB72574EA18006E3BFD /* libopencore-amrwb.a */,
-				900B0BAC2574E9F4006E3BFD /* amrFileCodec.h */,
-				900B0BAD2574E9F5006E3BFD /* amrFileCodec.mm */,
-				900B0BAE2574E9F5006E3BFD /* wav.h */,
-				900B0BAB2574E9F4006E3BFD /* wav.mm */,
-				900B0BA22574E98F006E3BFD /* VoiceConvert.h */,
-				900B0BA32574E98F006E3BFD /* VoiceConvert.m */,
 			);
 			path = VoiceConvert;
 			sourceTree = "<group>";
@@ -92,6 +81,10 @@
 		900B0BBA2574EA65006E3BFD /* include */ = {
 			isa = PBXGroup;
 			children = (
+				90FB1A052574EE33003B5604 /* amrFileCodec.h */,
+				90FB1A062574EE33003B5604 /* amrFileCodec.mm */,
+				90FB1A032574EE33003B5604 /* wav.h */,
+				90FB1A042574EE33003B5604 /* wav.mm */,
 				900B0BBB2574EA65006E3BFD /* interf_dec.h */,
 				900B0BBC2574EA65006E3BFD /* if_rom.h */,
 				900B0BBD2574EA65006E3BFD /* dec_if.h */,
@@ -157,9 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				900B0BB02574E9F5006E3BFD /* amrFileCodec.mm in Sources */,
-				900B0BAF2574E9F5006E3BFD /* wav.mm in Sources */,
-				900B0BA42574E98F006E3BFD /* VoiceConvert.m in Sources */,
+				90FB1A072574EE33003B5604 /* wav.mm in Sources */,
+				90FB1A082574EE33003B5604 /* amrFileCodec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
