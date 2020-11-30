@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
                :tag => s.version.to_s
   }
   
+  s.xcconfig  =  {'OTHER_LDFLAGS' => '-all_load' }
   s.vendored_libraries = ['VoiceConvert/lib/libopencore-amrnb.a',
                           'VoiceConvert/lib/libopencore-amrwb.a']
    s.description      = <<-DESC
