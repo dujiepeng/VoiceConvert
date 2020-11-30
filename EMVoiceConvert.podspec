@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
    s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
-
+  s.libraries = 'stdc++'
   s.source_files = 'VoiceConvert/include/**/*.h'
   
 end
