@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name = 'VoiceConvert'
-  s.version = '0.0.2'
+  s.name = 'EMVoiceConvert'
+  s.version = '0.0.3'
   s.platform = :ios, "8.0"
   
   s.license = 'MIT'
