@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'https://github.com/dujiepeng/EaseIMKit.git', :branch => 'test' }
 
   spec.public_header_files = 'EMVoiceConvert/**/*.h'
-  spec.vendored_libraries =  'EMVoiceConvert/*.a'
+  spec.vendored_libraries =  'EMVoiceConvert/*'
   spec.libraries = 'stdc++'
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-all_load'}
 end
