@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   spec.public_header_files = './EMVoiceConvert/**/*.h'
   # spec.source_files = './EMVoiceConvert/**/*.{h,m,mm}'
   spec.vendored_libraries =  [
-    'EMVoiceConvert/libopencore-amrnb.a',
-    'EMVoiceConvert/libopencore-amrnb.a'
+    'EMVoiceConvert/lib_opencore-amrnb.a',
+    'EMVoiceConvert/lib_opencore-amrnb.a'
   ]
   spec.libraries = 'stdc++'
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-all_load'}
