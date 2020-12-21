@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = 'EMVoiceConvert'
-  spec.version      = '0.0.7'
+  spec.version      = '0.0.8'
   spec.platform     = :ios, '8.0'
 
   spec.license 	    = 'MIT'
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
                        DESC
   spec.homepage     = 'https://github.com/dujiepeng/VoiceConvert'
   spec.author       = { 'dujiepeng' => '347302029@qq.com' }
-  spec.source       = { :git => 'git@github.com:dujiepeng/VoiceConvert.git', :tag => '0.0.7' }
+  spec.source       = { :git => 'https://github.com/dujiepeng/VoiceConvert.git', :tag => '0.0.8' }
 
   spec.public_header_files = 'EMVoiceConvert/**/*.h'
   spec.vendored_libraries =  'libopencore-amrnb.a', 'libopencore-amrwb.a'
