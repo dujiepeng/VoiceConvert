@@ -11,10 +11,10 @@ Pod::Spec.new do |spec|
                        DESC
   spec.homepage     = 'https://github.com/dujiepeng/VoiceConvert'
   spec.author       = { 'dujiepeng' => '347302029@qq.com' }
-  spec.source       = { :git => 'https://github.com/dujiepeng/EaseIMKit.git', :branch => 'test' }
+  spec.source       = { :git => 'https://github.com/dujiepeng/EMVoiceConvert.git', :branch => 'test' }
 
   spec.public_header_files = 'EMVoiceConvert/**/*.h'
-  spec.vendored_libraries =  'EMVoiceConvert/*'
+  spec.vendored_libraries =  'libopencore-amrnb.a', 'libopencore-amrwb.a'
   spec.libraries = 'stdc++'
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-all_load'}
 end
