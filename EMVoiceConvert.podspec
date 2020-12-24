@@ -13,6 +13,7 @@ Pod::Spec.new do |spec|
   spec.author       = { 'dujiepeng' => '347302029@qq.com' }
   spec.source       = { :git => 'https://github.com/dujiepeng/VoiceConvert.git', :tag => '0.1.0' }
 
+  spec.source_files = 'EMVoiceConvert/**/*.{h,m}'
   spec.public_header_files = 'EMVoiceConvert/**/*.h'
   spec.vendored_libraries =  'libopencore-amrnb.a', 'libopencore-amrwb.a'
   spec.libraries = 'stdc++'
